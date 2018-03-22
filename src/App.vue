@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <h1>app</h1>
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -14,23 +12,23 @@ export default {
       msg: 'asdf'
     }
   },
-  created() {
-    this.$http.get('/po').then(res => {
-      console.log(res.data);
-    }).catch(res =>{
-      console.log(res.data);
-    })
-    this.$http.get('/baidu').then(res => {
-      console.log(res.data);
-    }).catch(res =>{
-      console.log(res.data);
-    })
-    this.$http.get('/blo').then(res => {
-      console.log(res.data);
-    }).catch(res =>{
-      console.log(res.data);
-    })
-  }
+  // created() {
+  //   this.$http.get('/po').then(res => {
+  //     console.log(res.data);
+  //   }).catch(res =>{
+  //     console.log(res.data);
+  //   })
+  //   this.$http.get('/baidu').then(res => {
+  //     console.log(res.data);
+  //   }).catch(res =>{
+  //     console.log(res.data);
+  //   })
+  //   this.$http.get('/blo').then(res => {
+  //     console.log(res.data);
+  //   }).catch(res =>{
+  //     console.log(res.data);
+  //   })
+  // }
 }
 </script>
 
