@@ -1,4 +1,4 @@
-# y
+# vue-cli 多入口项目模板
 
 > a test project
 

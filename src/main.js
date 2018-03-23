@@ -3,8 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import Axios from 'Axios';
+import ElementUi from 'element-ui';
+import 'element-ui/lib/theme-default/index.css';
 import router from './router'
 
+Vue.use(ElementUi);
 Vue.config.productionTip = false
 Vue.prototype.$http = Axios
     /* eslint-disable no-new */
